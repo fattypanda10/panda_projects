@@ -1,5 +1,4 @@
-### These are some of the problems from HackerRank's 30-Day-Code challenge (completed successfully) 
-### solved at my end using Python
+### These are some of the problems from HackerRank's 30-Day-Code challenge (completed successfully) solved at my end in Python
 
 
 ### CHECKING LEAP YEAR
