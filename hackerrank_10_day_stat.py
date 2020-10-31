@@ -1,5 +1,4 @@
-### HackerRank - 10 days of Statistics ###
-{Completed}
+### HackerRank - 10 days of Statistics {Completed} ###
 
 ####################################################################
 
