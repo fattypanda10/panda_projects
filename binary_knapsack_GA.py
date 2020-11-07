@@ -1,7 +1,8 @@
-##### Binary Knapsack Problem #####
+##### Binary Knapsack Problem Using Genetic Algorithm #####
 ##### With 2 options - fixed mutation rate and variable mutation rate. The relevant part can be uncommented #####
 ##### Result of each iteration could consist of different variables. Uncomment accordingly #####
 
+############################################################################################################
 
 import random as r
 import math
@@ -94,13 +95,14 @@ def eliminate(poppy, offspr):
     
 
 ##### Main - Parameters to control #####
+##### {candidate solution size, population size, offspring/children size, k-tournament selection, alpha: mutation rate (constant), beta: crossover rate, iterations} #####
 size = 200
 pop_size = 500
 children = 500
 k = 125
-# alpha = 0.05
-beta = 0.5
-iters = 500
+# alpha = 0.05 
+beta = 0.5 
+iters = 500 
 
 values = [math.pow(2, r.gauss(0, 1)) for i in range(size)]
 weights = [math.pow(2, r.gauss(0, 1)) for i in range(size)]
