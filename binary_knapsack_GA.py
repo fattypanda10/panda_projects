@@ -1,5 +1,5 @@
 ##### Binary Knapsack Problem Using Genetic Algorithm #####
-##### With 2 options - fixed mutation rate and variable mutation rate. The relevant part can be uncommented #####
+##### With two options - fixed mutation rate and variable mutation rate. The relevant part can be uncommented #####
 ##### Result of each iteration could consist of different variables. Uncomment accordingly #####
 
 ############################################################################################################
