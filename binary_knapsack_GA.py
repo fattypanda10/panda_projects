@@ -42,7 +42,7 @@ def kp_items(single_order):
             remaining_capacity -= weights[i]
     return in_kp
     
-# Selection
+# Selection {k-tournament selection}
 def select(population, k):
     samples = r.sample(population, k)
     fitnesses = [fitness(i) for i in samples]
