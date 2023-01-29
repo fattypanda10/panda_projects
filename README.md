@@ -1,3 +1,3 @@
-## About this Repo
+### Panda Projects
 
-- repo contains code files written for various projects (personal and others)
+Contains code for several different projects undertaken at my end
