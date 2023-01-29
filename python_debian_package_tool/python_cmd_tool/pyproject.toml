@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "canonical"
+version = "0.1.0"
+description = "Python Command Line Tool For Downloading Debian Packages"
+authors = ["silverscorpio"]
+license = "MIT"
+readme = "README.md"
+keywords = ["python", "debian", "command line"]
+packages = [{ include = "canonical" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.1"
+beautifulsoup4 = "^4.11.1"
+tqdm = "^4.64.0"
+pre-commit = "^2.20.0"
+pytest = "^7.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
