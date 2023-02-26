@@ -1,3 +1,1 @@
-## Panda Projects
-
-Contains code for several different projects undertaken at my end
+Code from several different kind of projects 
